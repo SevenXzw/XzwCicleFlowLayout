@@ -1,0 +1,572 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB94B11F1CE308BE00494579 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CB94B11E1CE308BE00494579 /* main.m */; };
+		CB94B1221CE308BE00494579 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB94B1211CE308BE00494579 /* AppDelegate.m */; };
+		CB94B1281CE308BE00494579 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB94B1261CE308BE00494579 /* Main.storyboard */; };
+		CB94B12B1CE308BE00494579 /* SlowCollectionView.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CB94B1291CE308BE00494579 /* SlowCollectionView.xcdatamodeld */; };
+		CB94B12D1CE308BE00494579 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB94B12C1CE308BE00494579 /* Assets.xcassets */; };
+		CB94B1301CE308BE00494579 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB94B12E1CE308BE00494579 /* LaunchScreen.storyboard */; };
+		CB94B13B1CE308BE00494579 /* SlowCollectionViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB94B13A1CE308BE00494579 /* SlowCollectionViewTests.m */; };
+		CB94B1461CE308BE00494579 /* SlowCollectionViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB94B1451CE308BE00494579 /* SlowCollectionViewUITests.m */; };
+		CB94B1551CE309BC00494579 /* XzwTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB94B1541CE309BC00494579 /* XzwTextViewController.m */; };
+		CB94B15A1CE31D3300494579 /* XzwCicleFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = CB94B1591CE31D3300494579 /* XzwCicleFlowLayout.m */; };
+		CB94B15D1CE31D4400494579 /* XzwFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = CB94B15C1CE31D4400494579 /* XzwFlowLayout.m */; };
+		CB94B1601CE31DCB00494579 /* XzwCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CB94B15F1CE31DCB00494579 /* XzwCollectionViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CB94B1371CE308BE00494579 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB94B1121CE308BE00494579 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB94B1191CE308BE00494579;
+			remoteInfo = SlowCollectionView;
+		};
+		CB94B1421CE308BE00494579 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB94B1121CE308BE00494579 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB94B1191CE308BE00494579;
+			remoteInfo = SlowCollectionView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CB94B11A1CE308BE00494579 /* SlowCollectionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlowCollectionView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB94B11E1CE308BE00494579 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CB94B1201CE308BE00494579 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CB94B1211CE308BE00494579 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CB94B1271CE308BE00494579 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CB94B12A1CE308BE00494579 /* SlowCollectionView.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SlowCollectionView.xcdatamodel; sourceTree = "<group>"; };
+		CB94B12C1CE308BE00494579 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CB94B12F1CE308BE00494579 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CB94B1311CE308BE00494579 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB94B1361CE308BE00494579 /* SlowCollectionViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlowCollectionViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB94B13A1CE308BE00494579 /* SlowCollectionViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SlowCollectionViewTests.m; sourceTree = "<group>"; };
+		CB94B13C1CE308BE00494579 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB94B1411CE308BE00494579 /* SlowCollectionViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlowCollectionViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB94B1451CE308BE00494579 /* SlowCollectionViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SlowCollectionViewUITests.m; sourceTree = "<group>"; };
+		CB94B1471CE308BE00494579 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB94B1531CE309BC00494579 /* XzwTextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XzwTextViewController.h; sourceTree = "<group>"; };
+		CB94B1541CE309BC00494579 /* XzwTextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XzwTextViewController.m; sourceTree = "<group>"; };
+		CB94B1581CE31D3300494579 /* XzwCicleFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XzwCicleFlowLayout.h; sourceTree = "<group>"; };
+		CB94B1591CE31D3300494579 /* XzwCicleFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XzwCicleFlowLayout.m; sourceTree = "<group>"; };
+		CB94B15B1CE31D4400494579 /* XzwFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XzwFlowLayout.h; sourceTree = "<group>"; };
+		CB94B15C1CE31D4400494579 /* XzwFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XzwFlowLayout.m; sourceTree = "<group>"; };
+		CB94B15E1CE31DCB00494579 /* XzwCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XzwCollectionViewCell.h; sourceTree = "<group>"; };
+		CB94B15F1CE31DCB00494579 /* XzwCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XzwCollectionViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB94B1171CE308BE00494579 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB94B1331CE308BE00494579 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB94B13E1CE308BE00494579 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB94B1111CE308BE00494579 = {
+			isa = PBXGroup;
+			children = (
+				CB94B11C1CE308BE00494579 /* SlowCollectionView */,
+				CB94B1391CE308BE00494579 /* SlowCollectionViewTests */,
+				CB94B1441CE308BE00494579 /* SlowCollectionViewUITests */,
+				CB94B11B1CE308BE00494579 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB94B11B1CE308BE00494579 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB94B11A1CE308BE00494579 /* SlowCollectionView.app */,
+				CB94B1361CE308BE00494579 /* SlowCollectionViewTests.xctest */,
+				CB94B1411CE308BE00494579 /* SlowCollectionViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB94B11C1CE308BE00494579 /* SlowCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				CB94B1561CE31D0200494579 /* Model */,
+				CB94B1571CE31D0200494579 /* View */,
+				CB94B1201CE308BE00494579 /* AppDelegate.h */,
+				CB94B1211CE308BE00494579 /* AppDelegate.m */,
+				CB94B1531CE309BC00494579 /* XzwTextViewController.h */,
+				CB94B1541CE309BC00494579 /* XzwTextViewController.m */,
+				CB94B1261CE308BE00494579 /* Main.storyboard */,
+				CB94B12C1CE308BE00494579 /* Assets.xcassets */,
+				CB94B12E1CE308BE00494579 /* LaunchScreen.storyboard */,
+				CB94B1311CE308BE00494579 /* Info.plist */,
+				CB94B1291CE308BE00494579 /* SlowCollectionView.xcdatamodeld */,
+				CB94B11D1CE308BE00494579 /* Supporting Files */,
+			);
+			path = SlowCollectionView;
+			sourceTree = "<group>";
+		};
+		CB94B11D1CE308BE00494579 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB94B11E1CE308BE00494579 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CB94B1391CE308BE00494579 /* SlowCollectionViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				CB94B13A1CE308BE00494579 /* SlowCollectionViewTests.m */,
+				CB94B13C1CE308BE00494579 /* Info.plist */,
+			);
+			path = SlowCollectionViewTests;
+			sourceTree = "<group>";
+		};
+		CB94B1441CE308BE00494579 /* SlowCollectionViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CB94B1451CE308BE00494579 /* SlowCollectionViewUITests.m */,
+				CB94B1471CE308BE00494579 /* Info.plist */,
+			);
+			path = SlowCollectionViewUITests;
+			sourceTree = "<group>";
+		};
+		CB94B1561CE31D0200494579 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CB94B1581CE31D3300494579 /* XzwCicleFlowLayout.h */,
+				CB94B1591CE31D3300494579 /* XzwCicleFlowLayout.m */,
+				CB94B15B1CE31D4400494579 /* XzwFlowLayout.h */,
+				CB94B15C1CE31D4400494579 /* XzwFlowLayout.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CB94B1571CE31D0200494579 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CB94B15E1CE31DCB00494579 /* XzwCollectionViewCell.h */,
+				CB94B15F1CE31DCB00494579 /* XzwCollectionViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB94B1191CE308BE00494579 /* SlowCollectionView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB94B14A1CE308BE00494579 /* Build configuration list for PBXNativeTarget "SlowCollectionView" */;
+			buildPhases = (
+				CB94B1161CE308BE00494579 /* Sources */,
+				CB94B1171CE308BE00494579 /* Frameworks */,
+				CB94B1181CE308BE00494579 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SlowCollectionView;
+			productName = SlowCollectionView;
+			productReference = CB94B11A1CE308BE00494579 /* SlowCollectionView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CB94B1351CE308BE00494579 /* SlowCollectionViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB94B14D1CE308BE00494579 /* Build configuration list for PBXNativeTarget "SlowCollectionViewTests" */;
+			buildPhases = (
+				CB94B1321CE308BE00494579 /* Sources */,
+				CB94B1331CE308BE00494579 /* Frameworks */,
+				CB94B1341CE308BE00494579 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB94B1381CE308BE00494579 /* PBXTargetDependency */,
+			);
+			name = SlowCollectionViewTests;
+			productName = SlowCollectionViewTests;
+			productReference = CB94B1361CE308BE00494579 /* SlowCollectionViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CB94B1401CE308BE00494579 /* SlowCollectionViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB94B1501CE308BE00494579 /* Build configuration list for PBXNativeTarget "SlowCollectionViewUITests" */;
+			buildPhases = (
+				CB94B13D1CE308BE00494579 /* Sources */,
+				CB94B13E1CE308BE00494579 /* Frameworks */,
+				CB94B13F1CE308BE00494579 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB94B1431CE308BE00494579 /* PBXTargetDependency */,
+			);
+			name = SlowCollectionViewUITests;
+			productName = SlowCollectionViewUITests;
+			productReference = CB94B1411CE308BE00494579 /* SlowCollectionViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB94B1121CE308BE00494579 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = demo;
+				TargetAttributes = {
+					CB94B1191CE308BE00494579 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					CB94B1351CE308BE00494579 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = CB94B1191CE308BE00494579;
+					};
+					CB94B1401CE308BE00494579 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = CB94B1191CE308BE00494579;
+					};
+				};
+			};
+			buildConfigurationList = CB94B1151CE308BE00494579 /* Build configuration list for PBXProject "SlowCollectionView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB94B1111CE308BE00494579;
+			productRefGroup = CB94B11B1CE308BE00494579 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB94B1191CE308BE00494579 /* SlowCollectionView */,
+				CB94B1351CE308BE00494579 /* SlowCollectionViewTests */,
+				CB94B1401CE308BE00494579 /* SlowCollectionViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB94B1181CE308BE00494579 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB94B1301CE308BE00494579 /* LaunchScreen.storyboard in Resources */,
+				CB94B12D1CE308BE00494579 /* Assets.xcassets in Resources */,
+				CB94B1281CE308BE00494579 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB94B1341CE308BE00494579 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB94B13F1CE308BE00494579 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB94B1161CE308BE00494579 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB94B15A1CE31D3300494579 /* XzwCicleFlowLayout.m in Sources */,
+				CB94B15D1CE31D4400494579 /* XzwFlowLayout.m in Sources */,
+				CB94B1221CE308BE00494579 /* AppDelegate.m in Sources */,
+				CB94B11F1CE308BE00494579 /* main.m in Sources */,
+				CB94B12B1CE308BE00494579 /* SlowCollectionView.xcdatamodeld in Sources */,
+				CB94B1551CE309BC00494579 /* XzwTextViewController.m in Sources */,
+				CB94B1601CE31DCB00494579 /* XzwCollectionViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB94B1321CE308BE00494579 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB94B13B1CE308BE00494579 /* SlowCollectionViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB94B13D1CE308BE00494579 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB94B1461CE308BE00494579 /* SlowCollectionViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CB94B1381CE308BE00494579 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB94B1191CE308BE00494579 /* SlowCollectionView */;
+			targetProxy = CB94B1371CE308BE00494579 /* PBXContainerItemProxy */;
+		};
+		CB94B1431CE308BE00494579 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB94B1191CE308BE00494579 /* SlowCollectionView */;
+			targetProxy = CB94B1421CE308BE00494579 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CB94B1261CE308BE00494579 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB94B1271CE308BE00494579 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CB94B12E1CE308BE00494579 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB94B12F1CE308BE00494579 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB94B1481CE308BE00494579 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CB94B1491CE308BE00494579 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB94B14B1CE308BE00494579 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SlowCollectionView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = demo.SlowCollectionView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CB94B14C1CE308BE00494579 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SlowCollectionView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = demo.SlowCollectionView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CB94B14E1CE308BE00494579 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SlowCollectionViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = demo.SlowCollectionViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SlowCollectionView.app/SlowCollectionView";
+			};
+			name = Debug;
+		};
+		CB94B14F1CE308BE00494579 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SlowCollectionViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = demo.SlowCollectionViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SlowCollectionView.app/SlowCollectionView";
+			};
+			name = Release;
+		};
+		CB94B1511CE308BE00494579 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SlowCollectionViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = demo.SlowCollectionViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SlowCollectionView;
+			};
+			name = Debug;
+		};
+		CB94B1521CE308BE00494579 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SlowCollectionViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = demo.SlowCollectionViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SlowCollectionView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB94B1151CE308BE00494579 /* Build configuration list for PBXProject "SlowCollectionView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB94B1481CE308BE00494579 /* Debug */,
+				CB94B1491CE308BE00494579 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB94B14A1CE308BE00494579 /* Build configuration list for PBXNativeTarget "SlowCollectionView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB94B14B1CE308BE00494579 /* Debug */,
+				CB94B14C1CE308BE00494579 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CB94B14D1CE308BE00494579 /* Build configuration list for PBXNativeTarget "SlowCollectionViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB94B14E1CE308BE00494579 /* Debug */,
+				CB94B14F1CE308BE00494579 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CB94B1501CE308BE00494579 /* Build configuration list for PBXNativeTarget "SlowCollectionViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB94B1511CE308BE00494579 /* Debug */,
+				CB94B1521CE308BE00494579 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CB94B1291CE308BE00494579 /* SlowCollectionView.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CB94B12A1CE308BE00494579 /* SlowCollectionView.xcdatamodel */,
+			);
+			currentVersion = CB94B12A1CE308BE00494579 /* SlowCollectionView.xcdatamodel */;
+			path = SlowCollectionView.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CB94B1121CE308BE00494579 /* Project object */;
+}
