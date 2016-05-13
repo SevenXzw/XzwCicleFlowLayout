@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB7E16031CE57FF30065960F /* Untitled.gif in Resources */ = {isa = PBXBuildFile; fileRef = CB7E16021CE57FF30065960F /* Untitled.gif */; };
 		CB94B11F1CE308BE00494579 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CB94B11E1CE308BE00494579 /* main.m */; };
 		CB94B1221CE308BE00494579 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB94B1211CE308BE00494579 /* AppDelegate.m */; };
 		CB94B1281CE308BE00494579 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB94B1261CE308BE00494579 /* Main.storyboard */; };
@@ -39,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CB7E16021CE57FF30065960F /* Untitled.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Untitled.gif; sourceTree = "<group>"; };
 		CB94B11A1CE308BE00494579 /* SlowCollectionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlowCollectionView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB94B11E1CE308BE00494579 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CB94B1201CE308BE00494579 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 		CB94B11C1CE308BE00494579 /* SlowCollectionView */ = {
 			isa = PBXGroup;
 			children = (
+				CB7E16021CE57FF30065960F /* Untitled.gif */,
 				CB94B1561CE31D0200494579 /* Model */,
 				CB94B1571CE31D0200494579 /* View */,
 				CB94B1201CE308BE00494579 /* AppDelegate.h */,
@@ -278,6 +281,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB94B1301CE308BE00494579 /* LaunchScreen.storyboard in Resources */,
+				CB7E16031CE57FF30065960F /* Untitled.gif in Resources */,
 				CB94B12D1CE308BE00494579 /* Assets.xcassets in Resources */,
 				CB94B1281CE308BE00494579 /* Main.storyboard in Resources */,
 			);
@@ -536,6 +540,7 @@
 				CB94B14C1CE308BE00494579 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CB94B14D1CE308BE00494579 /* Build configuration list for PBXNativeTarget "SlowCollectionViewTests" */ = {
 			isa = XCConfigurationList;
@@ -544,6 +549,7 @@
 				CB94B14F1CE308BE00494579 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CB94B1501CE308BE00494579 /* Build configuration list for PBXNativeTarget "SlowCollectionViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -552,6 +558,7 @@
 				CB94B1521CE308BE00494579 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
